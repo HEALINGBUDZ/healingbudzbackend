@@ -1,0 +1,229 @@
+/*Login modal*/
+.login-modal {
+    position: fixed; /* Stay in place */
+    z-index: 99999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    display: none;
+}
+/* Modal Content */
+.login-content {
+    background-color: #1c1c1c;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    max-width: 600px;
+}
+#loginModal .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -14px;
+}
+.login-modal form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.login-modal h4 {
+    margin: 0 0 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+.login-modal .trans-input {
+    border-radius: 5px;
+}
+.login-modal .trans-input input, 
+.login-modal .trans-input select {
+    background: #292929;
+    width: 100%;
+    border: 1px solid #595959;
+    height: 40px;
+    margin: 0 0 10px;
+    padding: 5px 10px;
+    color: #595959;
+    font-size: 14px;
+}
+.login-modal .margin_row {
+    padding: 20px 0 50px;
+    overflow: hidden;
+}
+.login-modal .forgot {
+    color: #fff;
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+.login-modal .remember {
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+}
+.login-modal .remember input[type="checkbox"] {
+    width: 66px;
+    height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+.login-modal .remember label.keep_signed {
+    padding-left: 72px;
+    padding-top: 4px;
+}
+.login-modal .remember label {
+    position: relative;
+    margin: -1px 0 0;
+    float: left;
+    font-weight: 400;
+}
+.login-modal .remember label.keep_signed:after {
+    width: 66px;
+    height: 26px;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    background: url('../images/yes-no.png') no-repeat -64px 0;
+}
+.login-modal .remember input[type="checkbox"]:checked+label:after {
+    background-position: 0 0;
+}
+.login-modal .submit-area {
+    margin: 15px 0;
+}
+.login-modal .misc_holder {
+    width: 216px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.login-modal .submit-area input[type="submit"] {
+    width: 100%;
+    margin: 0 0 40px;
+    background: #7cc244;
+    color: #fff;
+    border: 0;
+    font-weight: 600;
+    font-size: 18px;
+    min-height: 48px;
+    border-radius: 3px;
+    -webkit-appearance: none;
+}
+.login-modal .or{
+    margin: 0 0 40px;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+.login-modal .or:after, .login-modal .or:before {
+    width: 9999px;
+    height: 1px;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0;
+    /* background: #292929; */
+    background: #292929;
+}
+.login-modal .or em {
+    padding: 5px;
+    display: inline-block;
+    font-size: 18px;
+    color: #414141;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    z-index: 5;
+    background: #262626;
+}
+.login-modal .socials-conects {
+    margin: 0 22px 40px;
+    overflow: hidden;
+}
+.login-modal .submit-area .socials-conects a:first-child {
+    float: left;
+}
+.login-modal .submit-area .socials-conects a {
+    float: right;
+}
+.login-modal .submit-area a img {
+    max-width: 100%;
+}
+.login-modal .member a {
+    color: #415fcc;
+}
+.login-modal .member {
+    text-align: center;
+    display: block;
+    color: #fff;
+    padding: 0 0 10px;
+    height: 10px !important;
+    display: block;
+    text-align: center;
+    width: 100% !important;
+    margin: 40px 0 0;
+}
+.login-modal .submit-area .member a {
+    width: auto;
+    height: 58px;
+}
+
+@media screen and (max-width: 767px) {
+    .home-pg-login {
+        /* display: block; */
+        padding: 50px 15px;
+    }
+    .home-pg-login .login-content {
+        max-width: 500px;
+    }
+    .home-pg-login .login-content .margin_row {
+        padding: 10px 0 15px;
+    }
+    .home-pg-login .submit-area input[type="submit"] {
+        margin-bottom: 15px;
+    }
+    .home-pg-login .socials-conects {
+        margin: 0 0 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .home-pg-login .submit-area a {
+        margin: 0 5px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .home-pg-login .login-content .margin_row {
+        display: flex;
+        flex-direction: column;
+    }
+    .home-pg-login .remember label {
+        margin: 10px 0;
+    }
+    .home-pg-login .misc_holder {
+        width: auto;
+    }
+    .home-pg-login .or {
+        margin-bottom: 15px;
+    }
+    .home-pg-login .member {
+        margin: 0;
+    }
+}

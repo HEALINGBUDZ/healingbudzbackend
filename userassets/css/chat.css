@@ -1,0 +1,127 @@
+.fa-level-up{color:#0083CB !important;}
+#live-chat h4 {
+    line-height: 1.5em;
+    margin: 0;
+    font-size: 14px;
+}
+
+.btn-chat{
+    margin: 9px 0 0;
+    padding: 4px 21px;
+    float: right;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-weight: 600;
+    color: #fff;
+    border: 1px solid #6e6e6e;}
+#suggested_user .btn-chat {
+    margin-top: 0;
+    /*background: #858585 url('../images/side-icon2.svg') no-repeat center center/25px;*/
+    background: url('../images/conversation-speech-bubbles.svg') no-repeat center center/20px;
+    font-size: 0;
+    border-radius: 5px;
+    border: none;
+    width: 30px;
+    padding: 5px;
+    
+}
+#live-chat {
+    bottom: 0;
+    font-size: 12px;
+    right: 0px;
+    position: fixed;
+    width: 323px;
+    display: none;
+}
+
+#live-chat header {
+    background: #2d2d2d;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px 24px;
+}
+
+
+
+#live-chat h5 {
+    font-size: 10px;
+}
+
+.chat-close {
+
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    float: right;
+    font-size: 24px;
+    height: 16px;
+    line-height: 16px;
+    margin: 2px 0 0 0;
+    text-align: center;
+    width: 16px;
+}
+.chat-full-screen {
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    float: right;
+    font-size: 24px;
+    height: 16px;
+    line-height: 16px;
+    margin: 2px 0 0 0;
+    text-align: center;
+    width: 16px;
+}
+.chat-full-screen.icon-adjust {
+    margin-right: 5px;
+    font-size: 20px;
+    margin-top: 3px;
+}
+.chat-message {
+    margin: 16px 0;
+}
+
+.chat-message img {
+
+    float: left;
+}
+
+.img-user{
+    border-radius: 17px;
+    padding-left: 5px;
+}
+.messages .img-user.chat-icon{
+    border-radius: 50%;
+    width: 55px;
+    height: 45px;
+    padding-left: 5px;
+    float: left;
+}
+.user-name {
+    font-size: 14px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.chat-icon{
+    float: left;
+}
+.picture-upload{margin: 9px; display: inline-block;height: 16px;vertical-align: middle;}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 0;
+
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #B3B3B3; 
+    border-radius: 10px;
+}
+
