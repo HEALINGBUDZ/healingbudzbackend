@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d1c6d7a56855ac727d7a0f8cfea11a4",
+    "content-hash": "25d682300653c5c50ce8dc39c1f7ba8e",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -145,20 +145,20 @@
         },
         {
             "name": "christofferok/laravel-emojione",
-            "version": "2.1.3",
+            "version": "4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/christofferok/laravel-emojione.git",
-                "reference": "91a1d6b90510f6981c5d21c579124a7448cc74f6"
+                "reference": "abc795d566d6690689f4b27ee68cb6a848aaf8ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/christofferok/laravel-emojione/zipball/91a1d6b90510f6981c5d21c579124a7448cc74f6",
-                "reference": "91a1d6b90510f6981c5d21c579124a7448cc74f6",
+                "url": "https://api.github.com/repos/christofferok/laravel-emojione/zipball/abc795d566d6690689f4b27ee68cb6a848aaf8ba",
+                "reference": "abc795d566d6690689f4b27ee68cb6a848aaf8ba",
                 "shasum": ""
             },
             "require": {
-                "emojione/emojione": "^3.1.0",
+                "emojione/emojione": "^4.0.0",
                 "illuminate/support": "~5.1",
                 "php": "~5.6|~7.0"
             },
@@ -206,7 +206,7 @@
                 "emojione",
                 "laravel"
             ],
-            "time": "2018-01-17T09:46:20+00:00"
+            "time": "2018-12-18T15:00:09+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -372,16 +372,16 @@
         },
         {
             "name": "emojione/emojione",
-            "version": "3.1.7",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/emojione/emojione.git",
-                "reference": "85ee3eda3e7fe80a03ff7b440aa7718b048c1cc5"
+                "reference": "d626d5aa9ac14c27d4c880d219903f0dfead356b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/emojione/emojione/zipball/85ee3eda3e7fe80a03ff7b440aa7718b048c1cc5",
-                "reference": "85ee3eda3e7fe80a03ff7b440aa7718b048c1cc5",
+                "url": "https://api.github.com/repos/emojione/emojione/zipball/d626d5aa9ac14c27d4c880d219903f0dfead356b",
+                "reference": "d626d5aa9ac14c27d4c880d219903f0dfead356b",
                 "shasum": ""
             },
             "require": {
@@ -411,7 +411,7 @@
                 "smilies",
                 "unicode"
             ],
-            "time": "2018-07-11T21:35:32+00:00"
+            "time": "2018-08-29T23:53:00+00:00"
         },
         {
             "name": "erusev/parsedown",
