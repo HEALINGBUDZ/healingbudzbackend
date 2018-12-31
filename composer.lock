@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d1c6d7a56855ac727d7a0f8cfea11a4",
+    "content-hash": "c8276f03829d7256452b53569b5d11c4",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -915,16 +915,16 @@
         },
         {
             "name": "jorenvanhocht/laravel-share",
-            "version": "1.0.4",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jorenvh/laravel-share.git",
-                "reference": "7d4441efe4af19892aadaf45fbd5f7f72d568ff4"
+                "reference": "908abcaf6cf2bf89c99595a79d0821990cf6057b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jorenvh/laravel-share/zipball/7d4441efe4af19892aadaf45fbd5f7f72d568ff4",
-                "reference": "7d4441efe4af19892aadaf45fbd5f7f72d568ff4",
+                "url": "https://api.github.com/repos/jorenvh/laravel-share/zipball/908abcaf6cf2bf89c99595a79d0821990cf6057b",
+                "reference": "908abcaf6cf2bf89c99595a79d0821990cf6057b",
                 "shasum": ""
             },
             "require": {
@@ -970,7 +970,7 @@
                 "social links",
                 "social share links"
             ],
-            "time": "2017-09-28T18:20:41+00:00"
+            "time": "2018-12-29T11:38:31+00:00"
         },
         {
             "name": "laravel/cashier",
