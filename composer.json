@@ -12,7 +12,7 @@
         "intervention/image": "^2.4",
         "jenssegers/agent": "^2.6",
         "jorenvanhocht/laravel-share": "^1.0",
-        "laravel/cashier": "~7.0",
+        "laravel/cashier": "~8.0",
         "laravel/framework": "5.4.*",
         "laravel/socialite": "^3.0",
         "laravel/tinker": "~1.0",
