@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d1c6d7a56855ac727d7a0f8cfea11a4",
+    "content-hash": "457e6286773864c1ec6ed21f1efe9540",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -192,9 +192,9 @@
             "authors": [
                 {
                     "name": ":Christoffer Korvald",
+                    "role": "Developer",
                     "email": "korvald@gmail.com",
-                    "homepage": "https://christofferok.com",
-                    "role": "Developer"
+                    "homepage": "https://christofferok.com"
                 }
             ],
             "description": "Laravel helper for EmojiOne",
@@ -832,8 +832,8 @@
             "authors": [
                 {
                     "name": "Mark Beech",
-                    "email": "m@rkbee.ch",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "m@rkbee.ch"
                 }
             ],
             "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
@@ -915,16 +915,16 @@
         },
         {
             "name": "jorenvanhocht/laravel-share",
-            "version": "1.0.4",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jorenvh/laravel-share.git",
-                "reference": "7d4441efe4af19892aadaf45fbd5f7f72d568ff4"
+                "reference": "e3d2aa7cbb90bfde06d21261a6812c2e9a066eea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jorenvh/laravel-share/zipball/7d4441efe4af19892aadaf45fbd5f7f72d568ff4",
-                "reference": "7d4441efe4af19892aadaf45fbd5f7f72d568ff4",
+                "url": "https://api.github.com/repos/jorenvh/laravel-share/zipball/e3d2aa7cbb90bfde06d21261a6812c2e9a066eea",
+                "reference": "e3d2aa7cbb90bfde06d21261a6812c2e9a066eea",
                 "shasum": ""
             },
             "require": {
@@ -957,9 +957,9 @@
             "authors": [
                 {
                     "name": "Joren Van Hocht",
+                    "role": "Developer",
                     "email": "joren@codeswitch.be",
-                    "homepage": "https://codeswitch.be",
-                    "role": "Developer"
+                    "homepage": "https://codeswitch.be"
                 }
             ],
             "description": "Optional package for Laravel to generate social share links.",
@@ -970,7 +970,7 @@
                 "social links",
                 "social share links"
             ],
-            "time": "2017-09-28T18:20:41+00:00"
+            "time": "2019-08-28T20:01:42+00:00"
         },
         {
             "name": "laravel/cashier",
@@ -1417,9 +1417,9 @@
             "authors": [
                 {
                     "name": "Ben Corlett",
+                    "role": "Developer",
                     "email": "bencorlett@me.com",
-                    "homepage": "http://www.webcomm.com.au",
-                    "role": "Developer"
+                    "homepage": "http://www.webcomm.com.au"
                 }
             ],
             "description": "OAuth 1.0 Client Library",
@@ -1561,9 +1561,9 @@
             "authors": [
                 {
                     "name": "Serban Ghita",
+                    "role": "Developer",
                     "email": "serbanghita@gmail.com",
-                    "homepage": "http://mobiledetect.net",
-                    "role": "Developer"
+                    "homepage": "http://mobiledetect.net"
                 }
             ],
             "description": "Mobile_Detect is a lightweight PHP class for detecting mobile devices. It uses the User-Agent string combined with specific HTTP headers to detect the mobile environment.",
@@ -1947,9 +1947,9 @@
             "authors": [
                 {
                     "name": "Paul Annesley",
+                    "role": "Developer",
                     "email": "paul@annesley.cc",
-                    "homepage": "http://paul.annesley.cc/",
-                    "role": "Developer"
+                    "homepage": "http://paul.annesley.cc/"
                 }
             ],
             "description": "PHP client for beanstalkd queue",
@@ -3513,8 +3513,8 @@
             "authors": [
                 {
                     "name": "Tijs Verkoyen",
-                    "email": "css_to_inline_styles@verkoyen.eu",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "css_to_inline_styles@verkoyen.eu"
                 }
             ],
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
@@ -4100,8 +4100,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sb@sebastian-bergmann.de"
                 }
             ],
             "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
@@ -4148,8 +4148,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sb@sebastian-bergmann.de"
                 }
             ],
             "description": "FilterIterator implementation that filters files based on a list of suffixes.",
@@ -4190,8 +4190,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Simple template engine.",
@@ -4239,8 +4239,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sb@sebastian-bergmann.de"
                 }
             ],
             "description": "Utility class for timing",
@@ -4368,8 +4368,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "The PHP Unit Testing framework.",
@@ -4438,6 +4438,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-06-30T09:13:00+00:00"
         },
         {
@@ -4945,8 +4946,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "role": "lead",
+                    "email": "sebastian@phpunit.de"
                 }
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
