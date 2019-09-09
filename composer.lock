@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d1c6d7a56855ac727d7a0f8cfea11a4",
+    "content-hash": "b99ca376f5b4f7d8c5f034396dc97322",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -192,9 +192,9 @@
             "authors": [
                 {
                     "name": ":Christoffer Korvald",
+                    "role": "Developer",
                     "email": "korvald@gmail.com",
-                    "homepage": "https://christofferok.com",
-                    "role": "Developer"
+                    "homepage": "https://christofferok.com"
                 }
             ],
             "description": "Laravel helper for EmojiOne",
@@ -832,8 +832,8 @@
             "authors": [
                 {
                     "name": "Mark Beech",
-                    "email": "m@rkbee.ch",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "m@rkbee.ch"
                 }
             ],
             "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
@@ -915,24 +915,24 @@
         },
         {
             "name": "jorenvanhocht/laravel-share",
-            "version": "1.0.4",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jorenvh/laravel-share.git",
-                "reference": "7d4441efe4af19892aadaf45fbd5f7f72d568ff4"
+                "reference": "269d2871cbb7c5bc4d7658308cf2a0b63cbb5b7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jorenvh/laravel-share/zipball/7d4441efe4af19892aadaf45fbd5f7f72d568ff4",
-                "reference": "7d4441efe4af19892aadaf45fbd5f7f72d568ff4",
+                "url": "https://api.github.com/repos/jorenvh/laravel-share/zipball/269d2871cbb7c5bc4d7658308cf2a0b63cbb5b7d",
+                "reference": "269d2871cbb7c5bc4d7658308cf2a0b63cbb5b7d",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6"
+                "php": ">=7.1"
             },
             "require-dev": {
-                "orchestra/testbench": "3.1.0|3.2.0|3.3.0",
-                "phpunit/phpunit": "5.*"
+                "orchestra/testbench": "~3.5.0",
+                "phpunit/phpunit": "~6.5"
             },
             "type": "library",
             "extra": {
@@ -970,7 +970,7 @@
                 "social links",
                 "social share links"
             ],
-            "time": "2017-09-28T18:20:41+00:00"
+            "time": "2019-09-06T21:29:27+00:00"
         },
         {
             "name": "laravel/cashier",
@@ -1417,9 +1417,9 @@
             "authors": [
                 {
                     "name": "Ben Corlett",
+                    "role": "Developer",
                     "email": "bencorlett@me.com",
-                    "homepage": "http://www.webcomm.com.au",
-                    "role": "Developer"
+                    "homepage": "http://www.webcomm.com.au"
                 }
             ],
             "description": "OAuth 1.0 Client Library",
@@ -1561,9 +1561,9 @@
             "authors": [
                 {
                     "name": "Serban Ghita",
+                    "role": "Developer",
                     "email": "serbanghita@gmail.com",
-                    "homepage": "http://mobiledetect.net",
-                    "role": "Developer"
+                    "homepage": "http://mobiledetect.net"
                 }
             ],
             "description": "Mobile_Detect is a lightweight PHP class for detecting mobile devices. It uses the User-Agent string combined with specific HTTP headers to detect the mobile environment.",
@@ -4438,6 +4438,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-06-30T09:13:00+00:00"
         },
         {
