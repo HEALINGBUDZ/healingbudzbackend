@@ -11,7 +11,7 @@
         "christofferok/laravel-emojione": "^2.1",
         "intervention/image": "^2.4",
         "jenssegers/agent": "^2.6",
-        "jorenvanhocht/laravel-share": "^1.0",
+        "jorenvanhocht/laravel-share": "^3.2",
         "laravel/cashier": "~7.0",
         "laravel/framework": "5.4.*",
         "laravel/socialite": "^3.0",

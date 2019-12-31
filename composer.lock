@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d1c6d7a56855ac727d7a0f8cfea11a4",
+    "content-hash": "c3760e2e4ae99891640e53998d4303c5",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -915,24 +915,24 @@
         },
         {
             "name": "jorenvanhocht/laravel-share",
-            "version": "1.0.4",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jorenvh/laravel-share.git",
-                "reference": "7d4441efe4af19892aadaf45fbd5f7f72d568ff4"
+                "reference": "c82c43b654a48964a8949195c5f48c9e7cb1ec95"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jorenvh/laravel-share/zipball/7d4441efe4af19892aadaf45fbd5f7f72d568ff4",
-                "reference": "7d4441efe4af19892aadaf45fbd5f7f72d568ff4",
+                "url": "https://api.github.com/repos/jorenvh/laravel-share/zipball/c82c43b654a48964a8949195c5f48c9e7cb1ec95",
+                "reference": "c82c43b654a48964a8949195c5f48c9e7cb1ec95",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6"
+                "php": ">=7.1"
             },
             "require-dev": {
-                "orchestra/testbench": "3.1.0|3.2.0|3.3.0",
-                "phpunit/phpunit": "5.*"
+                "orchestra/testbench": "~3.5.0",
+                "phpunit/phpunit": "~6.5"
             },
             "type": "library",
             "extra": {
@@ -970,7 +970,7 @@
                 "social links",
                 "social share links"
             ],
-            "time": "2017-09-28T18:20:41+00:00"
+            "time": "2019-12-30T20:39:14+00:00"
         },
         {
             "name": "laravel/cashier",
@@ -4438,6 +4438,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-06-30T09:13:00+00:00"
         },
         {
