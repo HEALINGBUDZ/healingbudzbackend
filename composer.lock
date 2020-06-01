@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d1c6d7a56855ac727d7a0f8cfea11a4",
+    "content-hash": "25d682300653c5c50ce8dc39c1f7ba8e",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -145,21 +145,21 @@
         },
         {
             "name": "christofferok/laravel-emojione",
-            "version": "2.1.3",
+            "version": "4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/christofferok/laravel-emojione.git",
-                "reference": "91a1d6b90510f6981c5d21c579124a7448cc74f6"
+                "reference": "77df87aec22755b94e991501aa0f4e473c83279b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/christofferok/laravel-emojione/zipball/91a1d6b90510f6981c5d21c579124a7448cc74f6",
-                "reference": "91a1d6b90510f6981c5d21c579124a7448cc74f6",
+                "url": "https://api.github.com/repos/christofferok/laravel-emojione/zipball/77df87aec22755b94e991501aa0f4e473c83279b",
+                "reference": "77df87aec22755b94e991501aa0f4e473c83279b",
                 "shasum": ""
             },
             "require": {
-                "emojione/emojione": "^3.1.0",
-                "illuminate/support": "~5.1",
+                "emojione/emojione": "^4.0.0",
+                "illuminate/support": "~5.1|~6.0|~7.0",
                 "php": "~5.6|~7.0"
             },
             "require-dev": {
@@ -206,7 +206,7 @@
                 "emojione",
                 "laravel"
             ],
-            "time": "2018-01-17T09:46:20+00:00"
+            "time": "2020-05-31T12:55:46+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -372,16 +372,16 @@
         },
         {
             "name": "emojione/emojione",
-            "version": "3.1.7",
+            "version": "4.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/emojione/emojione.git",
-                "reference": "85ee3eda3e7fe80a03ff7b440aa7718b048c1cc5"
+                "reference": "79e685356877cbb6128074a71b7f88f435b58412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/emojione/emojione/zipball/85ee3eda3e7fe80a03ff7b440aa7718b048c1cc5",
-                "reference": "85ee3eda3e7fe80a03ff7b440aa7718b048c1cc5",
+                "url": "https://api.github.com/repos/emojione/emojione/zipball/79e685356877cbb6128074a71b7f88f435b58412",
+                "reference": "79e685356877cbb6128074a71b7f88f435b58412",
                 "shasum": ""
             },
             "require": {
@@ -411,7 +411,8 @@
                 "smilies",
                 "unicode"
             ],
-            "time": "2018-07-11T21:35:32+00:00"
+            "abandoned": true,
+            "time": "2019-02-15T01:32:20+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -750,6 +751,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -796,6 +798,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -1697,6 +1700,7 @@
                 "cron",
                 "schedule"
             ],
+            "abandoned": "dragonmantank/cron-expression",
             "time": "2017-01-23T04:29:33+00:00"
         },
         {
@@ -2317,17 +2321,17 @@
             ],
             "authors": [
                 {
+                    "name": "Ben Ramsey",
+                    "email": "ben@benramsey.com",
+                    "homepage": "https://benramsey.com"
+                },
+                {
                     "name": "Marijn Huizendveld",
                     "email": "marijn.huizendveld@gmail.com"
                 },
                 {
                     "name": "Thibaud Fabre",
                     "email": "thibaud@aztech.io"
-                },
-                {
-                    "name": "Ben Ramsey",
-                    "email": "ben@benramsey.com",
-                    "homepage": "https://benramsey.com"
                 }
             ],
             "description": "Formerly rhumsaa/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
@@ -4438,6 +4442,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-06-30T09:13:00+00:00"
         },
         {
