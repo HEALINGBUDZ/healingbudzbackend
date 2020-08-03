@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d1c6d7a56855ac727d7a0f8cfea11a4",
+    "content-hash": "34200186551c33dced7f900aed7ccc8a",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -411,6 +411,7 @@
                 "smilies",
                 "unicode"
             ],
+            "abandoned": true,
             "time": "2018-07-11T21:35:32+00:00"
         },
         {
@@ -750,6 +751,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -796,6 +798,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -1697,6 +1700,7 @@
                 "cron",
                 "schedule"
             ],
+            "abandoned": "dragonmantank/cron-expression",
             "time": "2017-01-23T04:29:33+00:00"
         },
         {
@@ -1911,30 +1915,26 @@
         },
         {
             "name": "pda/pheanstalk",
-            "version": "v3.2.1",
+            "version": "v4.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pda/pheanstalk.git",
-                "reference": "57b6e76f1b06ca798e739a8dee92c2dac04fd170"
+                "url": "https://github.com/pheanstalk/pheanstalk.git",
+                "reference": "7fe4547fe62c2fff37e47cc469905dec04d7d352"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pda/pheanstalk/zipball/57b6e76f1b06ca798e739a8dee92c2dac04fd170",
-                "reference": "57b6e76f1b06ca798e739a8dee92c2dac04fd170",
+                "url": "https://api.github.com/repos/pheanstalk/pheanstalk/zipball/7fe4547fe62c2fff37e47cc469905dec04d7d352",
+                "reference": "7fe4547fe62c2fff37e47cc469905dec04d7d352",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "ext-mbstring": "*",
+                "php": ">=7.1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^7"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.1-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Pheanstalk\\": "src/"
@@ -1950,14 +1950,19 @@
                     "email": "paul@annesley.cc",
                     "homepage": "http://paul.annesley.cc/",
                     "role": "Developer"
+                },
+                {
+                    "name": "Sam Mousa",
+                    "email": "sam@mousa.nl",
+                    "role": "Maintainer"
                 }
             ],
             "description": "PHP client for beanstalkd queue",
-            "homepage": "https://github.com/pda/pheanstalk",
+            "homepage": "https://github.com/pheanstalk/pheanstalk",
             "keywords": [
                 "beanstalkd"
             ],
-            "time": "2018-09-19T12:16:28+00:00"
+            "time": "2020-07-31T11:08:31+00:00"
         },
         {
             "name": "phenx/php-font-lib",
@@ -2317,17 +2322,17 @@
             ],
             "authors": [
                 {
+                    "name": "Ben Ramsey",
+                    "email": "ben@benramsey.com",
+                    "homepage": "https://benramsey.com"
+                },
+                {
                     "name": "Marijn Huizendveld",
                     "email": "marijn.huizendveld@gmail.com"
                 },
                 {
                     "name": "Thibaud Fabre",
                     "email": "thibaud@aztech.io"
-                },
-                {
-                    "name": "Ben Ramsey",
-                    "email": "ben@benramsey.com",
-                    "homepage": "https://benramsey.com"
                 }
             ],
             "description": "Formerly rhumsaa/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
@@ -4438,6 +4443,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-06-30T09:13:00+00:00"
         },
         {
@@ -5071,5 +5077,6 @@
     "platform": {
         "php": ">=5.6.4"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

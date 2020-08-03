@@ -18,7 +18,7 @@
         "laravel/tinker": "~1.0",
         "maddhatter/laravel-fullcalendar": "~1.0",
         "mnshankar/CSV": "^1.8",
-        "pda/pheanstalk": "~3.0",
+        "pda/pheanstalk": "~4.0",
         "predis/predis": "~1.0",
         "sunra/php-simple-html-dom-parser": "1.5.2"
     },
