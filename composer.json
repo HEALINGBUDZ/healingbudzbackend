@@ -13,7 +13,7 @@
         "jenssegers/agent": "^2.6",
         "jorenvanhocht/laravel-share": "^1.0",
         "laravel/cashier": "~7.0",
-        "laravel/framework": "5.4.*",
+        "laravel/framework": "5.5.*",
         "laravel/socialite": "^3.0",
         "laravel/tinker": "~1.0",
         "maddhatter/laravel-fullcalendar": "~1.0",
